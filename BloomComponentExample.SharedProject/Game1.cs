@@ -3,7 +3,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
-namespace BloomComponentExample.DesktopGL
+namespace BloomComponentExample
 {
 	/// <summary>
 	/// This is the main type for your game.
@@ -18,7 +18,10 @@ namespace BloomComponentExample.DesktopGL
 
 		public Game1()
 		{
-			graphics = new GraphicsDeviceManager(this);
+			graphics = new GraphicsDeviceManager(this)
+			{
+				GraphicsProfile = GraphicsProfile.HiDef
+			};
 			Content.RootDirectory = "Content";
 		}
 
