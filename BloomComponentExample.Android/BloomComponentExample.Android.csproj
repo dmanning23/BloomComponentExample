@@ -48,7 +48,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="BloomComponent.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\BloomComponent.2.0.0\lib\MonoAndroid10\BloomComponent.Android.dll</HintPath>
+      <HintPath>..\packages\BloomComponent.2.0.1\lib\MonoAndroid10\BloomComponent.Android.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Android" />
     <Reference Include="MonoGame.Framework, Version=3.7.0.1708, Culture=neutral, processorArchitecture=MSIL">
